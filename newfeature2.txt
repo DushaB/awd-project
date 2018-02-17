@@ -1,1 +1,3 @@
 created 3 files
+
+created new fetaure file to check the uname pwd details 
