@@ -1,0 +1,11 @@
+Testing for standard input/output and error file
+
+output >>
+erroe 2>
+eg ll >> ll.txt
+ll.txt displays the directory list
+
+error
+: car 2> error.txt
+
+command not found in error.txt
