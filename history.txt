@@ -1,0 +1,296 @@
+    1  ll
+    2  mkdir new
+    3  cd new
+    4  ll
+    5  touch new.txt
+    6  ll
+    7  mkdir test
+    8  cd test
+    9  ll
+   10  touch newtext.txt
+   11  ll
+   12  clear
+   13  sudo useradd -m Dusha
+   14  sudo passwd
+   15  exit
+   16  su Dusha
+   17  cd ../
+   18  cd test
+   19  cd ../
+   20  cd awd
+   21  ll
+   22  cd vagrant
+   23  ll
+   24  cd ../
+   25  cd home
+   26  ll
+   27  cd Dusha
+   28  ll
+   29  su Dusha
+   30  ll
+   31  ~
+   32  cd ~
+   33  ll
+   34  cd profile
+   35  cd new
+   36  ll
+   37  who
+   38  pwd
+   39  ll
+   40  sudo useradd Dusha
+   41  su Dusha
+   42  sudo useradd newuser
+   43  sudo passwd
+   44  su newuser
+   45  ll
+   46  chmod 777 new.txt
+   47  ll
+   48  chmod -R 777 new.txt
+   49  ll
+   50  chmod g-r
+   51  sudo chmod g-r
+   52  ll
+   53  chmod -R 700 new.txt
+   54  ll
+   55  chmod o+r new.txt
+   56  ll
+   57  sudo useradd -m New
+   58  sudo passwd New
+   59  su New
+   60  chmod -R 700 new,txt
+   61  chmod -R 700 new.txt
+   62  ll
+   63  su New
+   64  mkdir newdir
+   65  ll
+   66  chmod 700 newdir
+   67  ll
+   68  su New
+   69  ll
+   70  chmod o+r newdir
+   71  ll
+   72  chmod u+r newdir
+   73  ll
+   74  history
+   75  clear
+   76  su New
+   77  ll
+   78  su New
+   79  cd newdir
+   80  touch new.txt
+   81  vi new.txt
+   82  cat new.txt
+   83  vi new.txt
+   84  cat new.txt
+   85  chmod -R 777 newdir
+   86  cd ../
+   87  ll
+   88  chmod -R 777 newdir
+   89  ll
+   90  su New
+   91  ll
+   92  cd newdir
+   93  ll
+   94  cat new.txt
+   95  chmod -R 700 newdir
+   96  cd ../
+   97  chmod -R 700 newdir
+   98  ll
+   99  cd newdir
+  100  vi new.txt
+  101  cat new.txt
+  102  vi new.txt
+  103  nano new1.txt
+  104  cat new1.txt
+  105  exit
+  106  ll
+  107  mkdir web
+  108  ll
+  109  cd web
+  110  nano new.txt
+  111  cat new.txt
+  112  nano new.txt
+  113  cat new.txt
+  114  ll
+  115  ll >> ll.txt
+  116  ll
+  117  cat ll.txt
+  118  car ll.txt 2> error.txt
+  119  cat error.txt
+  120  cat < input.txt
+  121  cat < ll.txt
+  122  cat ll.txt
+  123  git status
+  124  git init
+  125  git status
+  126  git add .
+  127  git status
+  128  git commit -am "Files added"
+  129  git status
+  130  who << who.txt
+  131  who >> who.txt
+  132  cat who.txt
+  133  git status
+  134  git commit -am "output file added"
+  135  git add .
+  136  git commit -am "output file added"
+  137  git checkout -b linux_commands
+  138  git remote add origin https://github.com/DushaB/awd-project linux_commands 
+  139  git remote -v
+  140  ll
+  141  nano sample.json
+  142  ll
+  143  cat sample.json
+  144  cut -f1 -d: sample.json
+  145  cut -f2 -d: sample.json
+  146  cut -f3 -d: sample.json
+  147  cut -f2 -d, sample.json
+  148  cut -f2 -d"" sample.json
+  149  cut -f2 -d" sample.json
+  150  grep new wh[ao]
+  151  grep new who
+  152  grep new who.txt
+  153  grep New who.txt
+  154  ll
+  155  grep new <who>
+  156  grep New <who>
+  157  grep New <who.txt>
+  158  wc who.txt
+  159  wc sample.json
+  160  grep New who
+  161  grep New who.txt
+  162  cd ../
+  163  ll
+  164  grep new who.txt
+  165  cd web
+  166  grep New [who]
+  167  grep New [who.txt]
+  168  ll
+  169  grep new wh[a-c]
+  170  wha
+  171  grep New wh[ao]
+  172  grep New wh[ab]
+  173  cat sample.json | value
+  174  cat who.txt
+  175  cat sample.json
+  176  cat sample.json | grep New
+  177  cat sample.json | grep New >> new.txt
+  178  ll
+  179  cat new.txt
+  180  cat sample.json | grep New >> new1.txt
+  181  cat new1.txt
+  182  cat sample.json | grep values
+  183  cat sample.json | grep New 
+  184  cat sample.json | grep value
+  185  git status
+  186  git add .
+  187  git commit -am "files added"
+  188  git remote add origin https://github.com/DushaB/awd-project.git
+  189  git remote -v
+  190  git push origin linux_working
+  191  git push origin linux_working -f
+  192  branch
+  193  git branch
+  194  git push origin linux_commands
+  195  cat sample.json
+  196  cat sample.json | grep on
+  197  history
+  198  clear
+  199  ll
+  200  git status
+  201  wc ll.txt
+  202  git clone https://github.com/Piusha/awd-b5.git working_with_linux
+  203  ll
+  204  cd working_with_linux
+  205  ll
+  206  cd ../
+  207  ll
+  208  cd new
+  209  ll
+  210  cd ../
+  211  ll
+  212  cd web
+  213  mkdir abc
+  214  mkdir ABC
+  215  nano 1.txt
+  216  cat 1.txt
+  217  touch 2.txt
+  218  touch 3.txt
+  219  ll
+  220  cd ABC
+  221  nano 1.txt
+  222  touch 2.txt
+  223  touch 3.txt
+  224  ll
+  225  ll >> ll.txt
+  226  cat ll.txt
+  227  cut -f1 -d" " ll.txt
+  228  cut -f1 -d"r" ll.txt
+  229  cut -f1 -d"r" ll.txt >> filetypes.txt
+  230  cat filetypes.txt
+  231  cat filetypes.txt grep | -
+  232  cat filetypes.txt grep | "-"
+  233  cat filetypes.txt grep | d
+  234  cat filetypes.txt | grep d
+  235  cat filetypes.txt | grep -
+  236  history >> history.txt
+  237  cat history.txt
+  238  ll
+  239  sudo adduser master
+  240  chmod
+  241  ll
+  242  git add .
+  243  ll
+  244  cd ll.txt
+  245  cat ll.txt
+  246  git checkout -b testing
+  247  git remote add https://github.com/DushaB/awd-project.git
+  248  git remote -v
+  249  git push origin testing
+  250  git remote add origins https://github.com/DushaB/awd-project.git
+  251  git remote -v
+  252  git push origins testing
+  253  git status
+  254  git add .
+  255  git commit -am "added"
+  256  git remote -v
+  257  git push origins testing
+  258  cd ../
+  259  ll
+  260  branch
+  261  git branch
+  262  git checkout -b shell_script
+  263  ll
+  264  mkdir shellscript
+  265  cd shellscript
+  266  nano first.sh
+  267  ./first.sh
+  268  ll
+  269  bash first.sh
+  270  ll
+  271  nano first.sh
+  272  bash first.sh
+  273  bash first.sh shell new.txt
+  274  ll
+  275  cd shell
+  276  ll
+  277  rm -rf new.txt
+  278  ll
+  279  cd ../
+  280  ll
+  281  rm -rf new.txt
+  282  ll
+  283  nano first.sh
+  284  cat first.sh
+  285  bash first.sh shells new.txt
+  286  ll
+  287  cd shells
+  288  ll
+  289  cd ../
+  290  ll
+  291  rm rf shell shells
+  292  rm shell
+  293  rm -rf shell shells
+  294  ll
+  295  history
+  296  history >> history.txt
