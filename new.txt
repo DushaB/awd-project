@@ -9,3 +9,4 @@ error
 : car 2> error.txt
 
 command not found in error.txt
+"value": "New", "onclick": "CreateNewDoc()"
