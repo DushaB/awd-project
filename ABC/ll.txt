@@ -1,0 +1,7 @@
+total 12
+drwxrwxr-x 2 vagrant vagrant 4096 Mar 17 06:00 ./
+drwxrwxr-x 6 vagrant vagrant 4096 Mar 17 05:58 ../
+-rw-rw-r-- 1 vagrant vagrant   47 Mar 17 05:58 1.txt
+-rw-rw-r-- 1 vagrant vagrant    0 Mar 17 05:58 2.txt
+-rw-rw-r-- 1 vagrant vagrant    0 Mar 17 05:59 3.txt
+-rw-rw-r-- 1 vagrant vagrant    0 Mar 17 06:00 ll.txt
